@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"coredemo/framework"
 	"fmt"
+	"github.com/1152545264/goWebSelf/framework"
 )
 
 func Test1() framework.ControllerHandler {

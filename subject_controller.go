@@ -1,6 +1,6 @@
 package main
 
-import "coredemo/framework"
+import "github.com/1152545264/goWebSelf/framework"
 
 func SubjectAddController(c *framework.Context) error {
 	c.Json(200, "ok, SubjectAddController")

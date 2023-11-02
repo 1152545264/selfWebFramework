@@ -1,7 +1,7 @@
 package main
 
 import (
-	"coredemo/framework"
+	"github.com/1152545264/goWebSelf/framework"
 )
 
 func UserLoginController(c *framework.Context) error {

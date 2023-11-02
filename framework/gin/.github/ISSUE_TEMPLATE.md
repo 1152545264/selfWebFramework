@@ -14,7 +14,7 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
+	"github.com/1152545264/goWebSelf/framework/gin"
 )
 
 func main() {

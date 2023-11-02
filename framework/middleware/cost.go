@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"coredemo/framework"
+	"github.com/1152545264/goWebSelf/framework"
 	"log"
 	"time"
 )

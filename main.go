@@ -1,8 +1,8 @@
 package main
 
 import (
-	"coredemo/framework"
-	"coredemo/framework/middleware"
+	"github.com/1152545264/goWebSelf/framework"
+	"github.com/1152545264/goWebSelf/framework/middleware"
 	"net/http"
 )
 

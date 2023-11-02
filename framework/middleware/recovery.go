@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"coredemo/framework"
+	"github.com/1152545264/goWebSelf/framework"
 )
 
 // recovery机制，将协程中的函数异常进行捕获
