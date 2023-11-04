@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a22258-435b-4a84-a585-0f272c163c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/framework/gin/hade_context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/gin/hade_request.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/gin/hade_response.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/.github/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/context.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/context_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/context_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/middleware/cost.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/middleware/cost.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/middleware/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/middleware/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/middleware/timeout.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/middleware/timeout.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/route.go" beforeDir="false" afterPath="$PROJECT_DIR$/route.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/subject_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/user_controller.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +22,11 @@
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Program Files/Go" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="09gin" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
