@@ -21,4 +21,7 @@ type ServiceProvider interface {
 
 	// Name 代表了这个服务提供者的凭证
 	Name() string
+
+	//Stop	停服务
+	Stop()
 }

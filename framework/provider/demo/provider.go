@@ -34,3 +34,8 @@ func (sp *DemoServiceProvider) Boot(c framework.Container) error {
 	fmt.Println("demo service boot")
 	return nil
 }
+
+// Stop 停服务
+func (sp *DemoServiceProvider) Stop() {
+
+}

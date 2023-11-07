@@ -5,25 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a22258-435b-4a84-a585-0f272c163c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/framework/container.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/gin/hade_contest.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/provider/demo/contract.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/provider/demo/provider.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/framework/provider/demo/service.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.work" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.work.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/context.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/deprecated.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/deprecated.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/gin.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/gin.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/gin/hade_context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/container.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/container.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/core.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/group.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/middleware/recovery.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/provider.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/subject_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/subject_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/provider/demo/provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/provider/demo/provider.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/timeout.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/trie.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/trie_test.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
