@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a22258-435b-4a84-a585-0f272c163c6d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/framework/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/container.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/gin/hade_contest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider/demo/contract.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider/demo/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider/demo/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.work" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.work.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/gin/context.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/context.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/gin/deprecated.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/deprecated.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/gin/gin.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/gin.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/gin/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gin/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/gin/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/gin/hade_context.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/provider.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subject_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/subject_controller.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="09gin" />
+        <entry key="$PROJECT_DIR$" value="10serviceProvider" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,40 +53,43 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2XTB4algKHStt5PJwvuhwGydHZi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/JiKeGoWebFrame&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.automatic.dependencies.download": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/JiKeGoWebFrame",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\framework" />
       <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\04middlware\framework" />
       <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\03router\framework" />
       <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\03router" />
       <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\02Context\framework" />
-      <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\02Context" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/1152545264/goWebSelf">
@@ -150,6 +170,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
