@@ -1,19 +1,17 @@
-// Copyright 2021 jianfengye.  All rights reserved.
-// Use of this source code is governed by a MIT style
-// license that can be found in the LICENSE file.
 package main
 
 import (
 	"context"
-	hadeHttp "github.com/1152545264/goWebSelf/app/http"
-	"github.com/1152545264/goWebSelf/app/provider/demo"
-	"github.com/1152545264/goWebSelf/framework/provider/app"
 	"log"
 	"net/http"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
+
+	hadeHttp "github.com/1152545264/goWebSelf/app/http"
+	"github.com/1152545264/goWebSelf/app/provider/demo"
+	"github.com/1152545264/goWebSelf/framework/provider/app"
 
 	"github.com/1152545264/goWebSelf/framework/gin"
 	"github.com/1152545264/goWebSelf/framework/middleware"
