@@ -5,7 +5,9 @@ package main
 
 import (
 	"context"
-	"github.com/1152545264/goWebSelf/framework/provider/demo"
+	hadeHttp "github.com/1152545264/goWebSelf/app/http"
+	"github.com/1152545264/goWebSelf/app/provider/demo"
+	"github.com/1152545264/goWebSelf/framework/provider/app"
 	"log"
 	"net/http"
 	"os"
@@ -18,14 +20,17 @@ import (
 )
 
 func main() {
+	// 创建engine结构
 	core := gin.New()
 	// 绑定具体的服务
-	core.Bind(&demo.DemoServiceProvider{})
+	core.Bind(&app.HadeAppProvider{})
+	core.Bind(&demo.DemoProvider{})
 
 	core.Use(gin.Recovery())
 	core.Use(middleware.Cost())
 
-	registerRouter(core)
+	hadeHttp.Routes(core)
+
 	server := &http.Server{
 		Handler: core,
 		Addr:    ":8888",

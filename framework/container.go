@@ -76,8 +76,9 @@ func (hade *HadeContainer) Bind(provider ServiceProvider) error {
 		if err := provider.Boot(hade); err != nil {
 			return err
 		}
-		// 实例化方法
+		// 实例化参数
 		params := provider.Params(hade)
+		// 实例化方法
 		method := provider.Register(hade)
 		instance, err := method(params...)
 		if err != nil {
@@ -118,15 +119,15 @@ func (hade *HadeContainer) MakeNew(key string, params []interface{}) (interface{
 }
 
 func (hade *HadeContainer) newInstance(sp ServiceProvider, params []interface{}) (interface{}, error) {
-	// force new a
+	// force a new
 	if err := sp.Boot(hade); err != nil {
 		return nil, err
 	}
 	if params == nil {
 		params = sp.Params(hade)
 	}
-	method := sp.Register(hade)
-	ins, err := method(params...)
+	method := sp.Register(hade)   //创建实例的方法
+	ins, err := method(params...) //调用method创建一个实例
 	if err != nil {
 		return nil, errors.New(err.Error())
 	}

@@ -16,7 +16,10 @@ type ServiceProvider interface {
 	// false表示不需要延迟实例化，在注册的时候就实例化。true表示延迟实例化
 	IsDefer() bool
 
-	// Params params定义传递给NewInstance的参数，可以自定义多个，建议将container作为第一个参数
+	/*
+	  Params params定义为实例化参数，Register的返回值为实例化服务的方法method，Params的返回值为实例化服务所需要的参数[]params
+	  调用方式为method(params...)，参数params可以自定义多个，建议将container作为第一个参数
+	*/
 	Params(Container) []interface{}
 
 	// Name 代表了这个服务提供者的凭证

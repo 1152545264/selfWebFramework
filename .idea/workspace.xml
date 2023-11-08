@@ -5,19 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a22258-435b-4a84-a585-0f272c163c6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/console/command/demo/demo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/console/command/kernel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/kernel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/module/demo/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/module/demo/dto.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/module/demo/mapper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/module/demo/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/module/demo/respository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/module/demo/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/http/route.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/provider/demo/contract.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/provider/demo/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/provider/demo/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/command/kernel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/contract/app.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider/app/provider.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/provider/app/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/util/console.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/util/console_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/util/exec.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/util/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/util/http.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/util/zip.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/container.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/container.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/context.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/controller.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/core.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/group.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/middleware/recovery.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/framework/provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/provider.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/provider/demo/provider.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/provider/demo/provider.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/timeout.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/trie.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/trie_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/provider/demo/contract.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/provider/demo/provider.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/provider/demo/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/route.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/subject_controller.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_controller.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +48,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Go File" />
       </list>
     </option>
@@ -35,7 +57,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="10serviceProvider" />
+        <entry key="$PROJECT_DIR$" value="11serviceContainer" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,11 +101,11 @@
       <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\app\http" />
       <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\framework" />
       <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\04middlware\framework" />
       <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\03router\framework" />
       <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\03router" />
-      <recent name="C:\Users\Admin\Desktop\JiKeGoWebFrame\02Context\framework" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/1152545264/goWebSelf">
@@ -122,6 +144,18 @@
       <filePath value="$PROJECT_DIR$/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="TestPrettyPrint in github.com/1152545264/goWebSelf/framework/util" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="JiKeGoWebFrame" />
+      <working_directory value="$PROJECT_DIR$/framework/util" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/1152545264/goWebSelf/framework/util" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestPrettyPrint\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_node_filterChildNodes in 03router/framework" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="JiKeGoWebFrame" />
       <working_directory value="$PROJECT_DIR$/03router/framework" />
@@ -139,11 +173,13 @@
       <item itemvalue="Go Build.go build 03router" />
       <item itemvalue="Go Build.go build github.com/1152545264/goWebSelf" />
       <item itemvalue="Go Build.go build 02Context" />
+      <item itemvalue="Go Test.TestPrettyPrint in github.com/1152545264/goWebSelf/framework/util" />
       <item itemvalue="Go Test.Test_node_filterChildNodes in 03router/framework" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build github.com/1152545264/goWebSelf" />
+        <item itemvalue="Go Test.TestPrettyPrint in github.com/1152545264/goWebSelf/framework/util" />
         <item itemvalue="Go Build.go build 03router" />
         <item itemvalue="Go Test.Test_node_filterChildNodes in 03router/framework" />
         <item itemvalue="Go Build.go build 02Context" />
